@@ -16,22 +16,22 @@ public class Get_Data {
         
         
     }
-//    @Test
-//    public void GetWeatherDetailsCondensed()
-//    {
-//            // Specify the base URL to the RESTful web service
-//            RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
-//
-//            // Get the RequestSpecification of the request that is to be sent
-//            // to the server.
-//            RequestSpecification httpRequest = RestAssured.given();
-//
-//            // Call RequestSpecification.get() method to get the response.
-//            // Make sure you specify the resource name.
-//            Response response = httpRequest.get("");
-//
-//            // Response.asString method will directly return the content of the body
-//            // as String.
-//            System.out.println("Response Body is =>  " + response.asString());
-//    }
+    @Test
+    public void GetWeatherDetailsCondensed()
+    {
+            // Specify the base URL to the RESTful web service
+            RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
+
+            // Get the RequestSpecification of the request that is to be sent
+            // to the server.
+            RequestSpecification httpRequest = RestAssured.given();
+
+            // Call RequestSpecification.get() method to get the response.
+            // Make sure you specify the resource name.
+            Response response = httpRequest.get("");
+
+            // Response.asString method will directly return the content of the body
+            // as String.
+            System.out.println("Response Body is =>  " + response.asString());
+    }
 }
